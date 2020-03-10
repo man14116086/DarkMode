@@ -1,4 +1,4 @@
-if(new Date().getHours()<6 || new Date().getHours()>18 ){
+if(new Date().getHours()<6 ){
     document.body.style.backgroundColor="Black";
     document.body.style.color="White";
 }else{
